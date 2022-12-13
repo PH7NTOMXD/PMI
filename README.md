@@ -1,2 +1,2 @@
 # PMI
-Installer for PSW MP.
+The installer for PSW MP!
