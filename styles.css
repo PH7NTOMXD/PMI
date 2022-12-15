@@ -14,7 +14,7 @@
 }
 
 .button {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .section {
@@ -25,3 +25,9 @@
     font-family: 'Segoe UI Emoji', sans-serif;
 }
 
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
