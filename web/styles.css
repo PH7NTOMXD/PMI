@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:300,400,400i,500,700&subset=latin,vietnamese,latin-ext,cyrillic,greek,cyrillic-ext,greek-ext);
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+* {
+    margin: 0;
+    font-family: 'Google Sans', sans-serif;
+}
+
+
+.hero {
+    background-image: url(https://cdn.discordapp.com/attachments/1051425996454232094/1052523804984877106/header-darken.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    font-weight: 500;
+}
+
+.section {
+    height: 100vh;
+}
+
+.heart {
+    font-family: 'Segoe UI Emoji', sans-serif;
+}
+
