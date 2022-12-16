@@ -18,16 +18,15 @@
 }
 
 .section {
-    height: 100vh;
+    height: 100vh;  
 }
 
 .heart {
     font-family: 'Segoe UI Emoji', sans-serif;
 }
 
-h1 {
-  font-size: 80px;
-  background: -webkit-linear-gradient(#000080, #00FFFF);
+.hero-title {
+  background-image: linear-gradient(#e944ff, #cf6400);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+}   
