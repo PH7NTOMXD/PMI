@@ -6,19 +6,46 @@
     font-family: 'Google Sans', sans-serif;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 1vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+  } 
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 115, 0); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(236, 134, 0); 
+  }
 
 .hero {
-    background-image: url(https://cdn.discordapp.com/attachments/1028251326955663411/1053063903199891486/image.png);
+    background-image: url(https://cdn.discordapp.com/attachments/1051425996454232094/1053609697070026792/image.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+@media only screen and (max-width: 621px) {
+    .hero {
+        background-image: url(https://cdn.discordapp.com/attachments/1051425996454232094/1053610195667914773/image.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 .button {
     font-weight: 500;
 }
 
 .section {
-    height: 100vh;  
+    height: 100vh;
 }
 
 .heart {
@@ -26,7 +53,16 @@
 }
 
 .hero-title {
-  background-image: linear-gradient(#e944ff, #cf6400);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}   
+    background-image: linear-gradient(#e944ff, #006eff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.hero-subtitle {
+    font-weight: bold;
+}
+
+.second-item-vlist {
+    margin-top: -5px;
+}
