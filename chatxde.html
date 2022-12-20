@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<html>
+<head>
+<style>
+body {
+  height: 1000px;
+  background: linear-gradient(141deg, #552424 0%, #30632e 51%, #316679 75%);
+}
+</style>
+</head>
+<body>
+<body>
+  <div class="container">
+    <br>
+    <div class="jumbotron">
+      <h1 class="display-4">Send Request</h1>
+      <br>
+      <input id="name" class="form-control" placeholder="Minecraft Username">
+      <br>
+      <textarea id="message" class="form-control" placeholder="Type your text!"></textarea>
+      <br>
+      <button id="send" class="btn btn-success">Send Request</button>
+      <a href="index.html">go back</a>
+    </div>
+    <div class="container">
+      <div id="messages">
+      </div>
+    </div>
+  </div>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="/node_modules/socket.io-client/dist/socket.io.js"></script>
+
+  <script>
+    var socket = io.connect("https://test-api32.herokuapp.com/");
+
+    $(() => {
+      $("#send").click(() => {
+        sendMessage({
+          name: $("#name").val(),
+          message: $("#message").val()
+        });
+      })
+      getMessages()
+    })
+
+
+    function addMessages(message) {
+      $("#messages").append(`
+        <h4> ${message.name} </h4>
+        <p>  ${message.message} </p>`)
+    }
+
+    socket.on('message', addMessages)
+
+    function getMessages() {
+      $.get("https://test-api32.herokuapp.com/messages", (data) => {
+        data.forEach(addMessages);
+      })
+    }
+
+    function sendMessage(message) {
+      $.post("https://test-api32.herokuapp.com/messages", message)
+    }
+  </script>
+
+  
+
+</body>
+
+</html>
