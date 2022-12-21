@@ -1,6 +1,4 @@
 # Phantoms Modpack Installer Info
-This text or whatever you call it will contain random information about the installer
-
 
 ![PMI](https://cdn.discordapp.com/attachments/1051425996454232094/1055025686949154826/image.png)
 
