@@ -9,8 +9,10 @@ easier
 
 Facts about PMI:
 
-1. PMI was made in InstallForge.
+1. PMI was made in [InstallForge](https://installforge.net/).
 
 2. The installer website is using a css framework called [Bulma CSS](https://bulma.io/).
+
+3. I learned to use [InstallForge](https://installforge.net/) without any tutorials.
 
 (More facts soon i just dont got any facts on my mind now 💀)
