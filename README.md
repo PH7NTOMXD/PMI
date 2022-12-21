@@ -6,12 +6,11 @@ A Screenshot of PMI (PH7NTOM's Modpack Installer) :
 
 ## What is this?
 
-The PMI Installer was made for the PSW MP server to make downloading the mods required to play on my server
-easier.
+The PMI (PH7NTOM's Modpack Installer)
 
 You can download PMI from the [Website](https://ph7ntomxd.github.io/PMI/) or from the [Releases](https://github.com/PH7NTOMXD/PMI/releases) in GitHub
 
-Facts about PMI:
+## Facts
 
 1. PMI was made in [InstallForge](https://installforge.net/).
 
