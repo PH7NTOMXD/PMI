@@ -5,7 +5,9 @@ This text or whatever you call it will contain random information about the inst
 ![PMI](https://user-images.githubusercontent.com/83135349/207276496-4bcaf137-9d18-4427-875c-8457b75dac04.PNG)
 
 The PMI Installer was made for the PSW MP server to make downloading the mods required to play on my server
-easier
+easier.
+
+You can download PMI from the [Website](https://ph7ntomxd.github.io/PMI/) or from the [Releases](https://github.com/PH7NTOMXD/PMI/releases) in GitHub
 
 Facts about PMI:
 
