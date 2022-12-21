@@ -13,6 +13,6 @@ Facts about PMI:
 
 2. The installer website is using a css framework called [Bulma CSS](https://bulma.io/).
 
-3. I learned to use [InstallForge](https://installforge.net/) without any tutorials.
+3.
 
 (More facts soon i just dont got any facts on my mind now 💀)
