@@ -18,3 +18,7 @@ You can download PMI from the [Website](https://ph7ntomxd.github.io/PMI/) or fro
 
 
 (More facts soon i just dont got any facts on my mind now 💀)
+
+# News: Installer stuff
+
+We are currently moving to inno setup since installforge makes our installer have false-positives
